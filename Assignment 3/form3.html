@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book a Room</title>
+  </head>
+  <body>
+    <form>
+      <table align="center">
+        <tr>
+          <th colspan="2">
+            <h1>
+              <font size="7" face="Georgia">
+                &nbsp;&nbsp;Hotel Paradise
+              </font>
+            </h1>
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <fieldset>
+         <legend>Reservation Details</legend>
+         <table cellpadding="10" cellspaing="10">
+           <tr>
+             <td>
+               <p>Full Name :</p>
+               <input type="text" name="fname" size="30" placeholder="FirstName" />
+               <input type="text" name="lname" size="30" placeholder="LastName" />
+             </td>
+           </tr>
+           <tr>
+             <td>
+               <p>Address :</p>
+               <input type="text" name="address" size="60" placeholder="Street Address" />
+               <br /> <br />
+               <input type="text" name="address" size="60" placeholder="Street Address Line 2" />
+               <br /> <br />
+               <input type="text" name="City" size="40" placeholder="City" />
+               <br /> <br />
+               <input type="text" name="State" size="40" placeholder="State/Province" />
+               <br /><br />
+               <input type="number" name="Pincode" size="35" placeholder="Pincode" />
+             </td>
+           </tr>
+         </table>
+         <table cellpadding="15">
+           <tr>
+             <td>
+               <p>Check-in Date :</p>
+               <input type="date" name="checkindate" placeholder="Check-in Date" />
+             </td>
+             <td>
+               <p>Check-in Time :</p>
+               <input type="time" name="checkintime" placeholder="Check-in Time" />
+             </td>
+             <td>
+               <p>Check-out Date :</p>
+               <input type="date" name="checkoutdate" placeholder="Check-out Date" />
+             </td>
+             <td>
+               <p>Check-out Time :</p>
+               <input type="time" name="checkouttime" placeholder="Check-out Time" />
+             </td>
+           </tr>
+         </table>
+         <table cellpadding="15">
+           <tr>
+              <td>
+                 <input type="radio" name="roomtype" /> Standard
+                 <input type="radio" name="roomtype" /> Delux
+                 <input type="radio" name="roomtype" /> Suite
+              </td>
+              <td>
+                 <select name="adults">
+                    <option value="adults">Adults</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                 </select>
+              </td>
+              <td>
+                 <select name="children">
+                    <option value="children">Children</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+              </td>
+           </tr>
+         </table>
+     </fieldset>
+    </form>
+  </body>
+</html>
